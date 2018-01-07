@@ -1,29 +1,26 @@
 #!/bin/bash
-echo "CPU temperature: "
+echo "* CPU temperature:"
 vcgencmd measure_temp
 
-echo
-echo "Disk usage:"
+echo -e "\n* CPU info:"
+cat /proc/cpuinfo
+
+echo -e "\n* Disk usage:"
 df -h
 
-echo
-echo "Partitions info:"
+echo -e "\n* Partitions info:"
 cat /proc/partitions
 
-echo
-echo "Raspberry Pi version:"
+echo -e "\n* Raspberry Pi version:"
 cat /proc/version
 
-echo
-echo "Memory info:"
+echo -e "\n* Memory info:"
 cat /proc/meminfo
 
-echo
-echo "Memory usage CPU vs GPU"
+echo -e "\n* Memory usage CPU vs GPU:"
 vcgencmd get_mem arm && vcgencmd get_mem gpu
 
-echo
-echo "USB devices:"
+echo -e "\n* USB devices:"
 lsusb
 
 echo

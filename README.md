@@ -8,6 +8,8 @@ Collection of utility scripts that can be used on [Raspberry Pi](https://www.ras
   Display various information about the Raspberry Pi system, such as: OS version, CPU details, partitions information, disk usage, memory information and list of USB devices.
 * `boinc-tasks.sh`
   Display tasks and their status, which are being run by the Boinc client.
+* `pi-status.sh`
+  Display system uptime status, the last reboot date and the last shutdown date.
 
 ### Installation
 Clone this repository using `git clone https://github.com/vadrianc/raspberry-pi-scripts.git`

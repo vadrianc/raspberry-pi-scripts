@@ -6,10 +6,13 @@ Collection of utility scripts that can be used on [Raspberry Pi](https://www.ras
   Performs an OS upgrade accompanied by cleanup commands that ensure optimal disk space usage.
 * `pi-info.sh`
   Display various information about the Raspberry Pi system, such as: OS version, CPU details, partitions information, disk usage, memory information and list of USB devices.
-* `boinc-tasks.sh`
-  Display tasks and their status, which are being run by the Boinc client.
 * `pi-status.sh`
   Display system uptime status, the last reboot date and the last shutdown date.
+* `boinc-tasks.sh`
+  Display tasks and their status, which are being run by the Boinc client.
+* `boinc-restart.sh`
+  Restart de Boinc client.
+
 
 ### Installation
 Clone this repository using `git clone https://github.com/vadrianc/raspberry-pi-scripts.git`

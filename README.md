@@ -25,5 +25,5 @@ Since Raspbian is a Debian-based computer operating system, the scripts are expe
 
 ### Tested
 The scripts have been successfully tested on Raspberry Pi computers with the following characteristics:
-* Raspberry Pi Model B, hardware BCM2708, revision 000e running Raspbian GNU/Linux, version 7 (wheezy)
+* Raspberry Pi Model B, hardware BCM2708, revision 000e running Raspbian GNU/Linux, version 9 (stretch)
 * Raspberry Pi Zero, hardware BCM2835, revision 900093, running Raspbian GNU/Linux, version 8 (jessie)

@@ -11,7 +11,10 @@ df -h
 echo -e "\n* Partitions info:"
 cat /proc/partitions
 
-echo -e "\n* Raspberry Pi version:"
+echo -e "\n* Operating system details:"
+cat /etc/os-release
+
+echo -e "\n* Linux kernel version:"
 cat /proc/version
 
 echo -e "\n* Memory info:"
@@ -24,3 +27,4 @@ echo -e "\n* USB devices:"
 lsusb
 
 echo
+

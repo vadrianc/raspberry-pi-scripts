@@ -11,7 +11,7 @@ Collection of utility scripts that can be used on [Raspberry Pi](https://www.ras
 * `boinc-tasks.sh`
   Display tasks and their status, which are being run by the Boinc client.
 * `boinc-restart.sh`
-  Restart de Boinc client.
+  Restart the Boinc client.
 
 
 ### Installation
